@@ -4,9 +4,9 @@ An augmented reality application designed to provide a calming, low-stakes spati
 
 ## Overview
 
-The initial challenge was to create a memorable experience using technology. While repetition builds habits, it is the interruption of patterns that creates memories. Research indicates that emotional regulation and stress recovery require shifting the body out of "fight-or-flight" mode. 
+Research indicates that emotional regulation and stress recovery require shifting the cognitive state out of "fight-or-flight" mode. However, finding effective ways to self-soothe can often be difficult when a user is overwhelmed or experiencing high anxiety.
 
-By leveraging cognitive grounding techniques, this application serves as an active distraction that requires just enough focus to pull attention away from overwhelming emotions without causing additional cognitive load.
+By leveraging cognitive grounding techniques, this application serves as an active distraction that requires just enough focus to pull attention away from overwhelming emotions without causing additional cognitive load. Interacting with a virtual companion in an augmented reality environment helps effectively break anxious thought patterns and securely returns the user to the present moment.
 
 ## Key Features
 
@@ -31,8 +31,8 @@ The application was built exclusively using native Apple SDKs:
 
 The application closely follows Apple's design principles:
 
-* **Aesthetic Integrity:** The application’s appearance directly supports its function. By utilizing a minimalist, translucent UI and smooth cross-faded animations, the interface communicates a peaceful, low-stress environment without overwhelming the user.
-* **Feedback:** The app provides immediate auditory, visual, and tactile feedback to user actions, anchoring them in reality. Physical haptics accurately mirror the virtual interactions, fulfilling the cognitive grounding requirements of the project.
+* **Aesthetic Integrity:** The application's appearance directly supports its function. By utilizing a minimalist, translucent UI and smooth cross-faded animations, the interface communicates a peaceful, low-stress environment without overwhelming the user.
+* **Feedback:** The app provides immediate auditory, visual, and tactile feedback to user actions, anchoring them in reality. Physical haptics accurately mirror the virtual interactions, fulfilling the cognitive grounding parameters of the application.
 
 ## Requirements
 
@@ -40,3 +40,10 @@ The application closely follows Apple's design principles:
 * Xcode 15.0+
 * A physical iOS device with a rear-facing camera and microphone (ARKit and Speech features are not fully supported on the iOS Simulator).
 
+## How to Run
+
+1. Clone or download the repository to your local machine.
+2. Open the project directory in Xcode.
+3. Select your physical iOS device as the active build destination.
+4. Ensure your Apple Developer provisioning profile is properly configured in the project settings.
+5. Build and run the application. Ensure you grant the required Camera, Microphone, and Speech Recognition permissions upon the first launch.
