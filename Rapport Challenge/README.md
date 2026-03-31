@@ -40,10 +40,3 @@ The application closely follows Apple's design principles:
 * Xcode 15.0+
 * A physical iOS device with a rear-facing camera and microphone (ARKit and Speech features are not fully supported on the iOS Simulator).
 
-## How to Run
-
-1. Clone or download the repository to your local machine.
-2. Open the project directory in Xcode.
-3. Select your physical iOS device as the active build destination.
-4. Ensure your Apple Developer provisioning profile is properly configured in the project settings.
-5. Build and run the application. Ensure you grant the required Camera, Microphone, and Speech Recognition permissions upon the first launch.
