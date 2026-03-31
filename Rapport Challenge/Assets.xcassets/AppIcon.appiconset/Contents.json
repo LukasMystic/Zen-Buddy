@@ -1,7 +1,10 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "filename" : "Untitled design-2.png",
+=======
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -13,7 +16,10 @@
           "value" : "dark"
         }
       ],
+<<<<<<< HEAD
       "filename" : "Untitled design-2 1.png",
+=======
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -25,7 +31,10 @@
           "value" : "tinted"
         }
       ],
+<<<<<<< HEAD
       "filename" : "Untitled design-2 2.png",
+=======
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

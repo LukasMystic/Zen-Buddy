@@ -78,7 +78,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
+<<<<<<< HEAD
 				LastUpgradeCheck = 2640;
+=======
+				LastUpgradeCheck = 2630;
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
 				TargetAttributes = {
 					D15474942F63E07A000F118F = {
 						CreatedOnToolsVersion = 26.3;
@@ -184,7 +188,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+<<<<<<< HEAD
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+=======
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -242,7 +249,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+<<<<<<< HEAD
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+=======
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,11 +268,15 @@
 				DEVELOPMENT_TEAM = 5MRHN4782T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+<<<<<<< HEAD
 				INFOPLIST_KEY_CFBundleDisplayName = "Zen Buddy";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow taking photos of the virtual dog";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to record audio for voice input.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow taking photos of the virtual dog";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses the microphone to record audio for voice input.";
+=======
+				INFOPLIST_KEY_NSCameraUsageDescription = CAMERA_USAGE_DESCRIPTION;
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
@@ -296,11 +310,15 @@
 				DEVELOPMENT_TEAM = 5MRHN4782T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+<<<<<<< HEAD
 				INFOPLIST_KEY_CFBundleDisplayName = "Zen Buddy";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow taking photos of the virtual dog";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to record audio for voice input.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow taking photos of the virtual dog";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses the microphone to record audio for voice input.";
+=======
+				INFOPLIST_KEY_NSCameraUsageDescription = CAMERA_USAGE_DESCRIPTION;
+>>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
