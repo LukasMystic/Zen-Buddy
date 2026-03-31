@@ -7,10 +7,7 @@
 
 import UIKit
 import SwiftUI
-<<<<<<< HEAD
 import AVFoundation
-=======
->>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
-<<<<<<< HEAD
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
             return false
         }
@@ -34,12 +30,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = window
         window.makeKeyAndVisible()
         AudioManager.shared.startIfNeeded()
-=======
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = UIHostingController(rootView: contentView)
-        self.window = window
-        window.makeKeyAndVisible()
->>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
         return true
     }
 
@@ -49,11 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-<<<<<<< HEAD
         AudioManager.shared.pause()
-=======
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
->>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
@@ -61,11 +47,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
-<<<<<<< HEAD
         AudioManager.shared.startIfNeeded()
-=======
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
->>>>>>> dcc6b560f94e1f92c12f88df0e8fa30c045fcabf
     }
 
 
