@@ -368,6 +368,29 @@ struct ARScreen: UIViewRepresentable {
             cfg.frameSemantics.insert(.personSegmentationWithDepth)
         }
         
+        // Fix Collision: Enable Object Occlusion (LiDAR) for better depth sorting
+        // Switching to .smoothedSceneDepth reduces the "laggy/jagged" glitching on fast-moving objects like hands
+        if ARWorldTrackingConfiguration.supportsFrameSemantics(.smoothedSceneDepth) {
+            cfg.frameSemantics.insert(.smoothedSceneDepth)
+            v.environment.sceneUnderstanding.options.insert(.occlusion)
+        } else if ARWorldTrackingConfiguration.supportsFrameSemantics(.sceneDepth) {
+            cfg.frameSemantics.insert(.sceneDepth)
+            v.environment.sceneUnderstanding.options.insert(.occlusion)
+        }
+        
+        // Fix Lighting: Boost brightness slightly and create extra directional light
+        v.environment.lighting.intensityExponent = 1.3
+        
+        // Let's attach our fill light to the camera so it always illuminates the front of the dog perfectly!
+        let lightEntity = Entity()
+        let light = DirectionalLightComponent(color: .white, intensity: 1500, isRealWorldProxy: false)
+        lightEntity.components.set(light)
+        
+        let cameraAnchor = AnchorEntity(.camera)
+        cameraAnchor.addChild(lightEntity)
+        v.scene.addAnchor(cameraAnchor)
+        
+        // Removed old fixed-position light
         v.session.delegate = context.coordinator
         v.session.run(cfg)
         v.scene.addAnchor(context.coordinator.anchor)
